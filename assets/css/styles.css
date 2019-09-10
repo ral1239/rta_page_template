@@ -1,0 +1,527 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #206fce; 
+}
+h1{
+    color: #CC0033;
+    line-height: 1.5em;
+    font-weight: normal;
+    font-size: 2.2em;
+}
+h1.page-title{
+    margin: 45px 10px 0.25em 10px;
+    border-bottom: solid 3px #307fe2;
+    padding: 0 10px; 
+}
+h2{
+    color: #CC0033;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.17em;
+    line-height: 1.282em;
+    margin-top: 1.282em;
+    margin-bottom: 1.282em;
+    color: #CC0033;
+}
+/*--- Header ---*/
+#header #block-search-form h2.element-invisible {display: none;}
+#block-menu-menu-quick-links {left: 323px; margin-bottom: 0; position: absolute; top: 2px;}
+#block-menu-menu-quick-links ul.menu {margin: 0; padding: 0;}
+#block-menu-menu-quick-links ul.menu li.leaf {float: left; list-style: none;}
+#block-menu-menu-quick-links ul.menu li.leaf a#ql-schedules {background-position: -718px -309px; width: 47px;}
+#block-menu-menu-quick-links ul.menu li.leaf a#ql-alerts {background-position: -56px 0; width: 28px;}
+#block-menu-menu-quick-links ul.menu li.leaf a#ql-fares {background-position: -823px -309px; width: 25px;}
+#block-menu-menu-quick-links ul.menu li.leaf a#ql-accessibility {background-position: -854px -309px; width: 58px;}
+#block-menu-menu-quick-links ul.menu li.leaf a#ql-contact-us {background-position: -922px -309px; width: 51px;}
+
+#name-and-slogan {
+  float: left;
+}
+#logo {left: 10px; position: absolute; top: 3px; z-index: 100;}
+#logo img {height: 100px; max-height: 100px; max-width: 100px; width: auto;}
+
+/*--- Footer ---*/
+#footer {position: relative;}
+#footer .footer-contact-info .location-info a#footer-logo {left: 10px; position: absolute; top: 0;}
+#footer .block-menu {float: left; margin: 0 10px;}
+#footer .block-menu ul.menu {margin: 0; padding: 0;}
+#footer .block-menu ul.menu li {list-style: none;}
+#footer .block-menu ul.menu li a {color: #206fce; text-decoration: none;}
+#footer .block-menu ul.menu li a:hover {text-decoration: underline;}
+/*--- Mobile Footer Menu ---*/
+.mobile-footer-menu{
+    display:none;
+}
+
+#content-bottom-shadow {
+    background: url(../images/sprited-images.png) no-repeat scroll -12px -838px transparent;
+    display: block;
+    font-size: 0;
+    height: 28px;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+/*--- Overrides ---*/
+#floating-header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#header {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #00468C;
+    display: block;
+    height: 50px;
+    position: relative;
+}
+
+#page,#footer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+#main {
+    padding-top: 85px;
+}
+
+#site-name {
+    line-height: 2em;
+}
+
+#site-name a {
+    position: absolute;
+    left: 140px;
+    top: 12px;
+    width: 134px;
+    height: 27px;
+    margin: 0;
+    background: url(../images/sprited-images.png) no-repeat scroll -331px -144px transparent;
+    text-indent: -9999px;
+    display: block;
+    outline: none;
+}
+
+#navigation {
+    background-color: #307FE2;
+    height: 3em;
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#navigation .megamenu-parent {
+    padding: 5px;
+    background-color: #307FE2;
+    float: left;
+    font-size: 125%;
+    line-height: 1.6em;
+}
+
+#navigation .megamenu-parent.first {
+    padding-left: 140px;
+}
+
+#navigation .megamenu-parent a {
+    background: #307FE2;
+    display: inherit;
+    color: white;
+    font-weight: bold;
+    padding-right: 30px;
+    text-decoration: none;
+}
+.mobile-megamenu-toggle{
+    position: absolute;
+    right: 3px;
+    bottom: 0;	
+    padding: 8px 6px 8px 8px;
+    display:none;
+}
+.mobile-megamenu-toggle img{
+    width: 30px;
+}
+#megamenu-main-menu {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: 100%;
+    line-height: 110%;
+    height: 100%;
+    list-style-type: none;
+}
+
+#block-search-form {
+    margin-bottom: 0;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+
+#block-search-form input.form-text {
+    background-color: #fff;
+    border: solid 1px #ccc;
+    font-size: 12px;
+    color: #666666;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;
+    position: absolute;
+    right: 56px;
+    top: 0;
+    width: 120px;
+}
+
+#block-search-form input.form-submit {
+    background: url(../images/sprited-images.png) no-repeat -250px -140px;
+    border: medium none;
+    font-size: 0;
+    height: 22px;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    top: 0;
+    width: 56px;
+}
+
+#block-menu-menu-quick-links {
+    left: 323px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 2px;
+}
+
+#block-menu-menu-quick-links ul.menu li.leaf {
+    float: left;
+    list-style: none;
+}
+
+#block-menu-menu-quick-links ul.menu li.leaf a#ql-schedules {
+    background-position: -718px -309px;
+    width: 47px;
+}
+
+#block-menu-menu-quick-links ul.menu li.leaf a {
+    background: url(../images/sprited-images.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 34px;
+    line-height: 0;
+    margin: 5px 10px;
+    text-indent: -9999px;
+}
+
+#footer {
+    padding-left: 10px;
+    /*padding-right: 10px;*/
+}
+
+#footer .footer-contact-info {
+    float: left;
+    margin: 0 30px 0 0;
+    min-height: 100px;
+}
+
+#footer .block-menu-wrapper{
+    float:left;
+}
+
+#footer .footer-contact-info img {
+    height: auto;
+    max-height: 100px;
+    max-width: 100px;
+    width: auto;
+}
+
+#footer .footer-contact-info .location-info {
+    color: #333333;
+    font-size: 90%;
+    line-height: 1.2em;
+    min-height: 95px;
+    padding: 25px 0 0 110px;
+}
+
+#footer .footer-contact-info .copyright {
+    color: #333333;
+    font-size: 90%;
+    padding: 0;
+    float:left;
+    width:100%;
+}
+
+#footer #block-bean-social-media-icons{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 100px;
+}
+
+#footer #block-bean-social-media-icons h2{
+    color: #333;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+#footer #block-bean-social-media-icons a.facebook-icon{
+    background: url(../images/sprited-images.png) repeat scroll -898px -149px transparent;
+    display: block;
+    font-size: 0;
+    height: 24px;
+    line-height: 0;
+    text-indent: -9999px;
+    width: 81px;
+    margin: 0 0 5px 0;
+}
+#footer #block-bean-social-media-icons a.twitter-icon{
+    background: url(../images/sprited-images.png) repeat scroll -898px -178px transparent;
+    display: block;
+    font-size: 0;
+    height: 24px;
+    line-height: 0;
+    text-indent: -9999px;
+    width: 81px;
+    margin: 0 0 5px 0;
+}
+#footer #block-bean-social-media-icons a.youtube-icon{
+    background: url(../images/sprited-images.png) repeat scroll -898px -207px transparent;
+    display: block;
+    font-size: 0;
+    height: 24px;
+    line-height: 0;
+    text-indent: -9999px;
+    width: 81px;
+    margin: 0 0 5px 0;
+}
+
+@media screen and (min-width: 761px) and (max-width: 999px) {
+    #header, #navigation{
+        width: 750px;
+    }
+    #page, #footer{
+        max-width: 748px;
+    }
+    #navigation .megamenu-parent.first {
+        padding-left: 25px;
+    }
+    #logo img{
+        height: 40px;
+        width: auto;
+    }
+    #site-name a{
+        left: 65px;
+    }
+    #block-menu-menu-quick-links{
+        left: 230px;
+    }
+    #navigation .megamenu-parent a{
+        padding-right: 20px;
+    }
+    #footer #footer-logo{
+        left: 10px;
+        position: absolute;
+        top: 0;
+    }
+    #footer .footer-contact-info{
+        width: 50%;
+        margin-right:0;
+    }
+    #footer .footer-contact-info img{
+        max-width: 40px;
+    }
+    #footer .footer-contact-info .location-info{
+        display: inline-block;
+        float: left;
+        padding: 0 0 0 50px;
+    }
+    #footer #block-bean-social-media-icons{
+        left: 60px;
+        margin: 0;
+        top: 60px;
+        width: 125px;
+    }
+    #footer #block-bean-social-media-icons h2{
+        display:none;
+    }
+    #footer #block-bean-social-media-icons a.facebook-icon, #footer #block-bean-social-media-icons a.twitter-icon, #footer #block-bean-social-media-icons a.youtube-icon{
+        float: left;
+        margin: 0 5px;
+        width: 25px;
+    }
+    #footer .block-menu{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 760px) {
+    #page,#footer{
+        max-width: 470px;
+    }
+    #header{
+        width:100%;
+        height: 95px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    #logo img{
+        height: 40px;
+        max-height: 40px;
+        max-width: 40px;
+        width: auto;
+    }
+    #site-name a{
+        left: 65px;
+    }
+    #block-menu-menu-quick-links{
+        left: 0;
+        bottom:0;
+        top:inherit;
+    }
+    #navigation{
+        display:none;
+    }
+    .mobile-megamenu-toggle{
+        display:block;
+    }
+    #main{
+        padding-top:95px;
+    }
+    #footer .footer-menu{
+        display: block;
+        height: 175px;
+        list-style: none;
+        margin: 10px 0;
+        padding: 0;
+    }
+    #footer #footer-logo{
+        left: 10px;
+        position: absolute;
+        top: 0;
+    }
+    #footer .footer-contact-info img{
+        max-width: 40px;
+    }
+    #footer .footer-contact-info .location-info{
+        display: inline-block;
+        float: left;
+        padding: 0 0 0 50px;
+    }
+    #footer #block-bean-social-media-icons{
+        left: 60px;
+        margin: 0;
+        top: 60px;
+        width: 125px;
+    }
+    #footer #block-bean-social-media-icons h2{
+        display:none;
+    }
+    #footer #block-bean-social-media-icons a.facebook-icon, #footer #block-bean-social-media-icons a.twitter-icon, #footer #block-bean-social-media-icons a.youtube-icon{
+        float: left;
+        margin: 0 5px;
+        width: 25px;
+    }
+    #footer .block-menu-wrapper{
+        margin-top:10px;
+    }
+    #footer .block-menu{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 479px) {
+    #page,#footer{
+        max-width: 310px;
+    }
+    #header{
+        width:100%;
+        height: 95px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    #logo img{
+        height: 40px;
+        max-height: 40px;
+        max-width: 40px;
+        width: auto;
+    }
+    #site-name a{
+        left: 65px;
+    }
+    #block-menu-menu-quick-links{
+        left: 0;
+        bottom:0;
+        top:inherit;
+    }
+    #navigation{
+        display:none;
+    }
+    .mobile-megamenu-toggle{
+        display:block;
+    }
+    #block-search-form input.form-text{
+        right:0;
+        top:0;
+    }
+    #block-search-form input.form-submit{
+        display:none;
+    }
+    #main{
+        padding-top:95px;
+    }
+    #footer .footer-menu{
+        display: block;
+        height: 175px;
+        list-style: none;
+        margin: 10px 0;
+        padding: 0;
+    }
+    #footer #footer-logo{
+        left: 10px;
+        position: absolute;
+        top: 0;
+    }
+    #footer .footer-contact-info img{
+        max-width: 40px;
+    }
+    #footer .footer-contact-info .location-info{
+        display: inline-block;
+        float: left;
+        padding: 0 0 0 50px;
+    }
+    #footer #block-bean-social-media-icons{
+        left: 10px;
+        margin: 0;
+        top: 60px;
+        width: 125px;
+    }
+    #footer #block-bean-social-media-icons h2{
+        display:none;
+    }
+    #footer #block-bean-social-media-icons a.facebook-icon, #footer #block-bean-social-media-icons a.twitter-icon, #footer #block-bean-social-media-icons a.youtube-icon{
+        float: left;
+        margin: 0 5px;
+        width: 25px;
+    }
+    #footer .block-menu-wrapper{
+        margin-top:10px;
+    }
+    #footer .block-menu{
+        font-size: 11px;
+    }
+}

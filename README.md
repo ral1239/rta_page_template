@@ -1,0 +1,1 @@
+A barebones GCRTA page template for prototyping
